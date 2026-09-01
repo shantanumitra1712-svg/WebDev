@@ -21,3 +21,5 @@ console.log(username.lastName)
 console.log(username)
 
 // console.log(typeof username)
+
+let name = "Shantanu"
