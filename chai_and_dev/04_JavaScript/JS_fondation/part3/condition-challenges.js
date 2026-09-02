@@ -59,3 +59,5 @@ if (items.length === 0) {
 } else {
   console.log("Array is not empty")
 }
+
+// checking if the github account is working
