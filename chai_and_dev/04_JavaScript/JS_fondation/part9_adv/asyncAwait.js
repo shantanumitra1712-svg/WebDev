@@ -1,7 +1,8 @@
 function fetchUserData() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            reject({ name: "Shantanu", url: "https://shantanu.com" })
+            // reject({ name: "Shantanu", url: "https://shantanu.com" })
+            resolve({ name: "Shantanu", url: "https://shantanu.com" })
         }, 3000);
     })
 }
