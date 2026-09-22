@@ -34,5 +34,4 @@ async function getBlogData() {
 
     }
 }
-// getdata();
 getBlogData();
