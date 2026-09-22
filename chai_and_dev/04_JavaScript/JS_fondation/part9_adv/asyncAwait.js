@@ -1,9 +1,7 @@
-const { use } = require("react");
-
 function fetchUserData() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve({ name: "Shantanu", url: "https://shantanu.com" })
+            reject({ name: "Shantanu", url: "https://shantanu.com" })
         }, 3000);
     })
 }
@@ -24,3 +22,4 @@ async function getUserData() {
     }
 }
 
+getUserData()
