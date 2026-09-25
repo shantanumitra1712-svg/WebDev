@@ -1,5 +1,6 @@
 {
   "dependencies": {
     "react": "^19.3.0"
-  }
+  },
+  "type": "module"
 }
