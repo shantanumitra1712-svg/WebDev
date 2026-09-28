@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>X</title>
   </head>
-  <body>
+  <body class="bg-black text-white">
     <div class="flex container mx-auto px-4 lg:px-40">
-      <div class="first w-full bg-slate-300">
-        <div class="logo">
+      <div class="first w-full">
+        <div class="logo invert">
           <svg
             viewBox="0 0 24 24"
             aria-hidden="true"
@@ -28,14 +28,50 @@
           </svg>
         </div>
 
-        <div class="sidebar">
-          <span class="material-symbols-outlined"> home </span>
+        <div class="sidebar flex justify-end">
+          <ul class="flex flex-col text-xl space-y-3 w-1/2">
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>
+              Home
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>Explore
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> notifications </span
+              >Notifications
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>Messages
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>Grok
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>Lists
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>Bookmarks
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>Communities
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>Premium
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>Profile
+            </li>
+            <li class="flex justify-start items-center gap-3">
+              <span class="material-symbols-outlined"> home </span>More
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="second w-full bg-red-600">bb</div>
-      <div class="third w-full bg-green-400">cc</div>
+      <div class="second w-full border-[1.5px] border-x-white border-y-black">
+        bb
+      </div>
+      <div class="third w-full">cc</div>
     </div>
   </body>
 </html>
-
-<!-- html file -->
