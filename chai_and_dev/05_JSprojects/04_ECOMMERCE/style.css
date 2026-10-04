@@ -56,8 +56,16 @@ h2 {
   background-color: #3700b3;
 }
 
+.product button.remove-btn {
+  background-color: #ff4444;
+}
+
+.product button.remove-btn:hover {
+  background-color: #cc0000;
+}
+
 #cart-items {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #cart-total {
