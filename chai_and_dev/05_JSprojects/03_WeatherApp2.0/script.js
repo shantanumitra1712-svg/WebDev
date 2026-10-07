@@ -47,7 +47,7 @@ function displayWeatherInfo(data) {
         main: { temp, humidity },
         weather: [{ description, id }] } = data
 
-    card.textContent = "";
+
     card.style.display = "flex";
 
     const cityDisplay = document.createElement("h1");
