@@ -43,17 +43,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderExpenses() {
         expenseList.innerHTML = "";
-        expenses.forEach(expense => {
+        expenses.forEach((expense) => {
             const li = document.createElement('li');
 
             li.innerHTML = `
-                ${expense.name} - $${expense.amount}
-                <button data-id= "${expense.id}">
-                    Delete
-                </button>
+            ${expense.name} - $${expense.amount}
+            <button data-id="${expense.id}">Delete</button>
             `;
 
-            expenseList.appendChild('li');
+            expenseList.appendChild(li);
         })
     }
 
@@ -65,6 +63,17 @@ document.addEventListener('DOMContentLoaded', () => {
         totalAmount = calculateTotal()
         totalAmountDisplay.textContent = totalAmount.toFixed(2);
     }
+
+    expenseList.addEventListener('click', (e) => {
+        if (e.target.tagName === 'BUTTON') {
+            const expenseId = parseInt(e.target.getAttribute('data-id'))
+            expenses = expenses.filter(expense => expense.id !== expenseId)
+
+            saveExpensesToLocal()
+            renderExpenses()
+            updateTotal()
+        }
+    });
 
     function saveExpensesToLocal() {
         localStorage.setItem("expenses", JSON.stringify(expenses));
