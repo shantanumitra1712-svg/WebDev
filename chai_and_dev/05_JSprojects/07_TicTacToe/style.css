@@ -28,4 +28,18 @@ body {
 .box {
   height: 18vmin;
   width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  font-size: 8vmin;
+  color: #b0413e;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  border: none;
+  border-radius: 1rem;
+  color: #ffffff;
 }
