@@ -1,0 +1,23 @@
+function toISOString() { [native code] } - Application started
+function toISOString() { [native code] } - Application event occured
+function toISOString() { [native code] } - Current memory usage : 21.78
+function toISOString() { [native code] } - Current memory usage : 20.60
+function toISOString() { [native code] } - Current memory usage : 21.12
+function toISOString() { [native code] } - Current memory usage : 21.57
+function toISOString() { [native code] } - Current memory usage : 21.75
+function toISOString() { [native code] } - Current memory usage : 21.75
+function toISOString() { [native code] } - Current memory usage : 21.81
+function toISOString() { [native code] } - Current memory usage : 21.78
+function toISOString() { [native code] } - Current memory usage : 21.72
+function toISOString() { [native code] } - Current memory usage : 21.81
+function toISOString() { [native code] } - Current memory usage : 22.04
+function toISOString() { [native code] } - Current memory usage : 21.28
+function toISOString() { [native code] } - Current memory usage : 21.12
+function toISOString() { [native code] } - Current memory usage : 21.16
+function toISOString() { [native code] } - Current memory usage : 21.56
+function toISOString() { [native code] } - Current memory usage : 21.57
+function toISOString() { [native code] } - Current memory usage : 21.57
+function toISOString() { [native code] } - Current memory usage : 21.49
+function toISOString() { [native code] } - Current memory usage : 21.52
+function toISOString() { [native code] } - Current memory usage : 21.81
+function toISOString() { [native code] } - Current memory usage : 21.83
